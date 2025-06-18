@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Αποφράξεις Ισλαμίδης</title>
+  <style>
+    /* Reset & Base */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { display: flex; flex-direction: column; min-height: 100vh; font-family: 'Segoe UI', Tahoma, sans-serif; color: #333; background: #eef2f5; }
+    a { text-decoration: none; }
+    img { max-width: 100%; display: block; margin: 0 auto; }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, #007ACC 0%, #005FA3 100%);
+      color: #fff;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+    .hero-content {
+      max-width: 700px;
+      margin: 0 auto;
+      background: rgba(255,255,255,0.1);
+      padding: 2rem;
+      border-radius: 12px;
+      backdrop-filter: blur(8px);
+    }
+    .hero h1 { font-size: 3rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.125rem; margin-bottom: 1.5rem; line-height: 1.6; }
+    .btn-primary { display: inline-block; background: #ff6b00; color: #fff; padding: 0.75rem 1.75rem; border-radius: 25px; font-size: 1.125rem; transition: background 0.3s ease; }
+    .btn-primary:hover { background: #e65a00; }
+
+    /* Image below Hero */
+    .hero-image { padding: 1rem; background: #fff; }
+
+    /* Services Section */
+    .services { padding: 3rem 1rem; text-align: center; flex: 1; }
+    .services h2 { font-size: 2rem; margin-bottom: 2rem; color: #005FA3; text-shadow: 1px 1px 2px rgba(0,0,0,0.2); }
+    .services .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; max-width: 1000px; margin: 0 auto; }
+    .service-item {
+      background: rgba(255,255,255,0.8);
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      backdrop-filter: blur(6px);
+    }
+    .service-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+    .service-item h3 { margin-bottom: 0.75rem; font-size: 1.25rem; color: #007ACC; }
+    .service-item p { font-size: 1rem; line-height: 1.4; color: #444; }
+
+    /* Footer */
+    footer {
+      background: linear-gradient(135deg, #005FA3 0%, #007ACC 100%);
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-size: 0.9rem;
+      margin-top: auto;
+    }
+    footer a { color: #ffdd57; text-decoration: underline; }
+
+    /* Responsive */
+    @media (max-width: 1024px) { .services .grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px) { .services .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Αποφράξεις Ισλαμίδης</h1>
+      <p>Εξειδίκευση σε κάθε φραγή σωληνώσεων – μπάνια, κουζίνες, φρεάτια, αποχετεύσεις. Άμεση 24/7 εξυπηρέτηση με σύγχρονο εξοπλισμό.</p>
+      <a class="btn-primary" href="tel:+306969696969">Καλέστε τώρα: 6969696969</a>
+    </div>
+  </section>
+
+  <!-- Image -->
+  <section class="hero-image">
+    <img src="truck-kun.png" alt="Όχημα Αποφράξεις Ισλαμίδης">
+  </section>
+
+  <!-- Services -->
+  <section class="services">
+    <h2>Οι Υπηρεσίες μας</h2>
+    <div class="grid">
+      <div class="service-item">
+        <h3>Αποφράξεις Μπάνιων & Κουζινών</h3>
+        <p>Γρήγορος καθαρισμός σωληνώσεων μπάνιου και κουζίνας με υψηλή πίεση νερού.</p>
+      </div>
+      <div class="service-item">
+        <h3>Καθαρισμός Αποχετεύσεων</h3>
+        <p>Αφαίρεση ρίζας, λίπους και άλλων φραγμάτων από το δίκτυο αποχέτευσης.</p>
+      </div>
+      <div class="service-item">
+        <h3>Φρεάτια & Υδρορροές</h3>
+        <p>Απόφραξη και καθαρισμός φρεατίων, υδρορροών κτιρίων για προστασία από πλημμύρες.</p>
+      </div>
+      <div class="service-item">
+        <h3>Κάμερα Ελέγχου</h3>
+        <p>Ακριβής εντοπισμός φραγής με κάμερα για στοχευμένη και οικονομική λύση.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Αποφράξεις Ισλαμίδης | Εμπιστευτείτε μας, λύση στις φράξεις άμεσα!
+  </footer>
+</body>
+</html>
