@@ -1,4 +1,4 @@
-# Αποφράξεις Ισλαμίδης - Single Page Website
+# adv-sewers - Single Page Website
 
 Αυτό το αποθετήριο περιέχει τον πηγαίο κώδικα για μια απλή, responsive single-page ιστοσελίδα που παρουσιάζει τις υπηρεσίες του συνεργείου Αποφράξεις Ισλαμίδης.
 
@@ -33,8 +33,8 @@
 1. **Fork & Clone**
 
    ```bash
-   git clone https://github.com/your-username/apofraxeis-islamidis.git
-   cd apofraxeis-islamidis
+   git clone https://github.com/your-username/adv-sewers.git
+   cd adv-sewers
    ```
 
 2. **Δοκιμή τοπικά**
